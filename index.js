@@ -6,9 +6,9 @@ const passport = require('passport');
 const authRoutes = require('./routes/Google_Oauth');
 const emailRoutes = require('./routes/Gmail_fetch');
 const outlookAuthRoutes = require('./routes/Outlook_Oauth')
-const outlookEmailRoutes = require('./routes/Outlook_Oauth')
+const outlookEmailRoutes = require('./routes/Outlook_fetch')
 require('dotenv').config();
-require('./config/passport-config');
+require('./config/google-passport-config');
 
 const app = express();
 const PORT = process.env.PORT || 9000;
@@ -32,10 +32,9 @@ app.use(passport.session());
 app.use('/auth', authRoutes);
 app.use('/', emailRoutes);
 
-// app.use('/auth', outlookAuthRoutes)
-// app.use('/', outlookEmailRoutes);
 
-
+app.use('/auth', outlookAuthRoutes)
+app.use('/', outlookEmailRoutes);
 
 // Start the server
 app.listen(PORT, () => {
