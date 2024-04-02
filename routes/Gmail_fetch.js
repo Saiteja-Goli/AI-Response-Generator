@@ -75,6 +75,3 @@ async function sendEmail(senderEmail, analyzedAIResponse) {
 
 
 module.exports = router;
-
-
-
