@@ -11,6 +11,10 @@ This tool automates email responses using AI. It reads incoming emails, understa
 ## Deplolyed App
 Backend: https://ai-response-generator-1.onrender.com/
 
+## Video Walkthrough of the project
+[link](https://drive.google.com/drive/folders/1dyqJPN6XEPl22B4FVzB81eLYqlV8q_2H?usp=drive_link)
+
+
 ## Features
 - OAuth2 Authentication: Allows users to authenticate using Google OAuth2 protocols.
 - Email Fetching: Fetches emails from the user's Gmail accounts.
