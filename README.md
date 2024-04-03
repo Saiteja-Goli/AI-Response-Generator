@@ -44,10 +44,7 @@ GMAIL_ADDRESS=Your_Gmail_Address
 GMAIL_PASSWORD=Your_Gmail_Password
 
 
-OUTLOOK_CLIENT_ID=Your_OutlookMail_Address
-OUTLOOK_CLIENT_SECRET=Your_OutlookMail_Secret
-OUTLOOK_TENANT_ID=Your_Outlook_Tenent
-OUTLOOK_REDIRECT_URI=http://localhost:9000/auth/outlook/callback
+
 
 GEMINI_API_KEY=Your_Google_API_Key
 
