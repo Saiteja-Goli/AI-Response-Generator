@@ -11,6 +11,12 @@ This tool automates email responses using AI. It reads incoming emails, understa
 ## Deplolyed App
 Backend: https://ai-response-generator-1.onrender.com/
 
+
+## Video Walkthrough of the project
+[link](https://drive.google.com/drive/folders/1dyqJPN6XEPl22B4FVzB81eLYqlV8q_2H?usp=drive_link)
+
+
+
 ## Features
 - OAuth2 Authentication: Allows users to authenticate using Google OAuth2 protocols.
 - Email Fetching: Fetches emails from the user's Gmail accounts.
@@ -34,17 +40,40 @@ Backend: https://ai-response-generator-1.onrender.com/
 3. **Set up environment variables** 
 Create a .env file with the following variables:
 ```bash
+<<<<<<< HEAD
 
 PORT=9000
 SESSION_SECRET="SAI0407"
+=======
+PORT=9000
+SESSION_SECRET=SAI0407
+
+GOOGLE_CLIENT_ID=1066004373746-gtg3otdn0eb7t9jr124l7qe4phpg5q1b.apps.googleusercontent.com
+GOOGLE_CLIENT_SECRET=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
+GOOGLE_REDIRECT_URI=http://localhost:9000/auth/google/callback
+
+OUTLOOK_CLIENT_ID=b0931c41-93ba-47b4-bf25-f0c356596d5d
+OUTLOOK_CLIENT_SECRET=czg8Q~gaJOvloqnx-kzN5JlAbjUANvyMFoJZecp3
+OUTLOOK_TENANT_ID=f8cdef31-a31e-4b4a-93e4-5f571e91255a
+OUTLOOK_REDIRECT_URI=http://localhost:9000/auth/outlook/callback
+
+GEMINI_API_KEY=AIzaSyBqWPT_C92somaFXwp7JgZ-JpZUJ9cn8lc
+
+GMAIL_ADDRESS=saitejagoli666@gmail.com
+GMAIL_PASSWORD=ealohtcvtikmwdfu
+>>>>>>> 512e0854f5c58cedbeacffc8036aea9811d6911f
 
 ```
 4. **Start the server**
 ```bash
 npm start
+<<<<<<< HEAD
 Access the server at :- http://localhost:9000/
 ```
 
+=======
+```
+>>>>>>> 512e0854f5c58cedbeacffc8036aea9811d6911f
 # Routes
 ## Google OAuth2
 
@@ -60,8 +89,11 @@ Access the server at :- http://localhost:9000/
 
 - **GET /emails**: Fetches and sends Analysed AI generated email to unread emails from the user's Gmail account.
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 512e0854f5c58cedbeacffc8036aea9811d6911f
 # Tech Stack
 
 ## Backend Dependencies
