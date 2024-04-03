@@ -34,22 +34,6 @@ Backend: https://ai-response-generator-1.onrender.com/
 3. **Set up environment variables** 
 Create a .env file with the following variables:
 ```bash
-PORT=9000
-
-SESSION_SECRET=Your_Session_Secret
-GOOGLE_CLIENT_ID=Your_Google_Client_ID
-GOOGLE_CLIENT_SECRET=Your_Google_Client_Secret
-GOOGLE_REDIRECT_URI=http://localhost:9000/auth/google/callback
-GMAIL_ADDRESS=Your_Gmail_Address
-GMAIL_PASSWORD=Your_Gmail_Password
-
-
-OUTLOOK_CLIENT_ID=Your_OutlookMail_ID
-OUTLOOK_CLIENT_SECRET=Your_OutlookMail_Secret
-OUTLOOK_TENANT_ID=Your_Outlook_Tenent
-OUTLOOK_REDIRECT_URI=http://localhost:9000/auth/outlook/callback
-
-GEMINI_API_KEY=Your_Google_API_Key
 
 PORT=9000
 SESSION_SECRET=SAI0407
