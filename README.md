@@ -38,16 +38,6 @@ Create a .env file with the following variables:
 PORT=9000
 SESSION_SECRET="SAI0407"
 
-GOOGLE_CLIENT_ID="1066004373746-gtg3otdn0eb7t9jr124l7qe4phpg5q1b.apps.googleusercontent.com"
-GOOGLE_CLIENT_SECRET="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"
-GOOGLE_REDIRECT_URI="http://localhost:9000/auth/google/callback"
-
-GEMINI_API_KEY="AIzaSyBqWPT_C92somaFXwp7JgZ-JpZUJ9cn8lc"
-
-GMAIL_ADDRESS="saitejagoli666@gmail.com"
-GMAIL_PASSWORD="ealohtcvtikmwdfu"
-
-
 ```
 4. **Start the server**
 ```bash
