@@ -13,7 +13,7 @@ Backend: https://ai-response-generator-1.onrender.com/
 
 
 ## Video Walkthrough of the project
-[link](https://drive.google.com/drive/folders/1dyqJPN6XEPl22B4FVzB81eLYqlV8q_2H?usp=drive_link)
+[link](https://www.loom.com/share/8a1eb85342484f8ca03562a637161460?sid=b252df52-e8cd-4e0c-8b87-8b915456b98a)
 
 
 
