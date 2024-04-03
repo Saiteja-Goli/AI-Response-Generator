@@ -44,9 +44,30 @@ GMAIL_ADDRESS=Your_Gmail_Address
 GMAIL_PASSWORD=Your_Gmail_Password
 
 
-
+OUTLOOK_CLIENT_ID=Your_OutlookMail_ID
+OUTLOOK_CLIENT_SECRET=Your_OutlookMail_Secret
+OUTLOOK_TENANT_ID=Your_Outlook_Tenent
+OUTLOOK_REDIRECT_URI=http://localhost:9000/auth/outlook/callback
 
 GEMINI_API_KEY=Your_Google_API_Key
+
+PORT=9000
+SESSION_SECRET=SAI0407
+
+GOOGLE_CLIENT_ID=1066004373746-gtg3otdn0eb7t9jr124l7qe4phpg5q1b.apps.googleusercontent.com
+GOOGLE_CLIENT_SECRET=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
+GOOGLE_REDIRECT_URI=http://localhost:9000/auth/google/callback
+
+OUTLOOK_CLIENT_ID=b0931c41-93ba-47b4-bf25-f0c356596d5d
+OUTLOOK_CLIENT_SECRET=czg8Q~gaJOvloqnx-kzN5JlAbjUANvyMFoJZecp3
+OUTLOOK_TENANT_ID=f8cdef31-a31e-4b4a-93e4-5f571e91255a
+OUTLOOK_REDIRECT_URI=http://localhost:9000/auth/outlook/callback
+
+GEMINI_API_KEY=AIzaSyBqWPT_C92somaFXwp7JgZ-JpZUJ9cn8lc
+
+GMAIL_ADDRESS=saitejagoli666@gmail.com
+GMAIL_PASSWORD=ealohtcvtikmwdfu
+
 
 ```
 4. **Start the server**
