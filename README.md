@@ -40,11 +40,6 @@ Backend: https://ai-response-generator-1.onrender.com/
 3. **Set up environment variables** 
 Create a .env file with the following variables:
 ```bash
-<<<<<<< HEAD
-
-PORT=9000
-SESSION_SECRET="SAI0407"
-=======
 PORT=9000
 SESSION_SECRET=SAI0407
 
@@ -61,19 +56,16 @@ GEMINI_API_KEY=AIzaSyBqWPT_C92somaFXwp7JgZ-JpZUJ9cn8lc
 
 GMAIL_ADDRESS=saitejagoli666@gmail.com
 GMAIL_PASSWORD=ealohtcvtikmwdfu
->>>>>>> 512e0854f5c58cedbeacffc8036aea9811d6911f
 
 ```
 4. **Start the server**
 ```bash
 npm start
-<<<<<<< HEAD
 Access the server at :- http://localhost:9000/
 ```
 
 =======
 ```
->>>>>>> 512e0854f5c58cedbeacffc8036aea9811d6911f
 # Routes
 ## Google OAuth2
 
@@ -89,12 +81,6 @@ Access the server at :- http://localhost:9000/
 
 - **GET /emails**: Fetches and sends Analysed AI generated email to unread emails from the user's Gmail account.
 
-<<<<<<< HEAD
-
-
-=======
->>>>>>> 512e0854f5c58cedbeacffc8036aea9811d6911f
-# Tech Stack
 
 ## Backend Dependencies
 
